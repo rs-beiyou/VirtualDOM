@@ -1,0 +1,37 @@
+{
+    "name": "virtualdom",
+    "version": "1.0.0",
+    "description": "a simple realization of virtual DOM",
+    "main": "index.js",
+    "scripts": {
+        "init": "webpack-dev-server --open --config webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ocobo/VirtualDOM.git"
+    },
+    "keywords": [
+        "virtualDOM",
+        "vue",
+        "vuejs",
+        "defineProperty"
+    ],
+    "author": "Ocobo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ocobo/VirtualDOM/issues"
+    },
+    "homepage": "https://github.com/ocobo/VirtualDOM#readme",
+    "devDependencies": {
+        "babel": "^6.23.0",
+        "babel-core": "^6.25.0",
+        "babel-loader": "^7.1.1",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.6.0",
+        "babel-runtime": "^6.25.0",
+        "eslint": "^4.11.0",
+        "webpack": "^3.4.1",
+        "webpack-dev-server": "^2.6.1"
+    }
+}
