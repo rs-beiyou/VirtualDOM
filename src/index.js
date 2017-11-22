@@ -1,9 +1,7 @@
-let obj = {};
-Object.defineProperty(obj, 'hello', {
-  get() {
-    console.log('get');
-  },
-  set(val) {
-    console.log('set' + val);
+import VsDom from './vsdom';
+new VsDom({
+  el: '#app',
+  data: {
+    test: '123123'
   }
 });
